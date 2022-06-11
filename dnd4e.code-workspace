@@ -4,5 +4,10 @@
       "path": "."
     }
   ],
-  "settings": {}
+  "settings": {
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false,
+    "synthwave84.brightness": 0.65,
+    "synthwave84.disableGlow": false
+  }
 }
