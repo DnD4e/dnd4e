@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "vue.volar",
-    "RobbOwen.synthwave-vscode"
+    "robbowen.synthwave-vscode",
+    "bradlc.vscode-tailwindcss"
   ]
 }
