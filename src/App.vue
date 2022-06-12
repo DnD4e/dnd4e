@@ -8,4 +8,10 @@
     </div>
 </template>
 
-<style></style>
+<style lang="postcss">
+/* Global Stypes using Tailwind CSS */
+
+h1 {
+    @apply subpixel-antialiased text-2xl font-bold;
+}
+</style>
