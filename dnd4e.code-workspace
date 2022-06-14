@@ -1,13 +1,17 @@
 {
-  "folders": [
-    {
-      "path": "."
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "prettier.tabWidth": 4,
+        "prettier.useTabs": false,
+        "synthwave84.brightness": 0.65,
+        "synthwave84.disableGlow": false,
+        "files.associations": {
+            "*.css": "tailwindcss"
+        },
+        "tailwindCSS.emmetCompletions": true
     }
-  ],
-  "settings": {
-    "prettier.tabWidth": 4,
-    "prettier.useTabs": false,
-    "synthwave84.brightness": 0.65,
-    "synthwave84.disableGlow": false
-  }
 }
