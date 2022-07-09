@@ -12,7 +12,7 @@ export interface Character {
 export function generateNewCharacter(): Character {
     return {
         race: "Human",
-        class: "Rogue",
+        class: "Medium",
         alignment: "Neutral",
         level: 1,
         paragonPath: "",

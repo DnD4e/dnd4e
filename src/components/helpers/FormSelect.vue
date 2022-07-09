@@ -8,6 +8,7 @@
         :name="id"
         :id="id"
         v-bind="value"
+        v-model="value"
         class="block w-full rounded-md text-lg border-slate-900 bg-slate-600 p-2 text-slate-300 focus:ring-slate-800"
       >
         <option v-for="option in selectOptions" :value="option" :key="option">

@@ -5,6 +5,12 @@ import FormTextbox from "./components/helpers/FormTextbox.vue";
 import FormSelectVue from "./components/helpers/FormSelect.vue";
 import { classOptions } from "./models/sets/class";
 import FormSelect from "./components/helpers/FormSelect.vue";
+import { characterStore } from "./store/character";
+import { storeToRefs } from "pinia";
+
+const store = characterStore();
+
+const { character } = storeToRefs(store);
 </script>
 
 <template>
@@ -25,9 +31,9 @@ import FormSelect from "./components/helpers/FormSelect.vue";
   </BlockVue>
   <BlockVue>
     <FormSelect
-      id="Test"
-      value="TestValue"
-      label="Test Label"
+      id="chracterClass"
+      :value="character.class"
+      label="Class"
       textPlaceholder="Test Placeholder"
       :selectOptions="classOptions"
     >
