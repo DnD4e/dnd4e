@@ -1,0 +1,22 @@
+export let raceOptions = new Set<String>([
+    "Deva",
+    "Dragonborn",
+    "Dwarf",
+    "Eladrin",
+    "Elf",
+    "Half-Elf",
+    "Halfling",
+    "Human",
+    "Tiefling",
+    "Gnome",
+    "Goliath",
+    "Half-Orc",
+    "Shifter (Longtooth)",
+    "Shifter (Razorclaw)",
+    "Kalashtar (Eberron)",
+    "Warforged (Eberron)",
+    "Githzerai",
+    "Minotaur",
+    "Shardmind",
+    "Wilden"
+]);
